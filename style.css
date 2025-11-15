@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    border: solid 1px;
+    width: 330px;
+    position: fixed;
+    height: 100%;
+    background-color: lightskyblue;
+    padding-top: 60px;
+    list-style: none;
+}
+#text1{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+#text2{
+    color: purple;
+    font-size: 33px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px navy;
+    height: 50px;
+    width: 160px;
+    margin-left: 50px;
+    background-color: cyan;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: darkorchid;
+}
+#home{
+    border: solid 1px;
+    height: 780px;
+    background-color: peachpuff;
+    padding-left: 335px;
+}
+#text3{
+    color: indigo;
+    font-size: 58px;
+}
+#text4{
+    color: darkgreen;
+    font-size: 50px;
+}
+#text5{
+    color: black;
+    font-size: 20px;
+}
+#bt1{
+    height: 60px;
+    width: 200px;
+    background-color: fuchsia;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+#about{
+    border: solid 1px;
+    height: 780px;
+    background-color: lightyellow;
+    padding-left: 335px;
+}
+#aboutme{
+    font-size: 50px;
+    color: blueviolet;
+}
+html{
+    scroll-behavior: smooth;
+}
